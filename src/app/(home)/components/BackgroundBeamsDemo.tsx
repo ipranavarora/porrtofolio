@@ -11,7 +11,7 @@ export function BackgroundBeamsDemo() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-        Get in touch to discuss your project, ask questions, or explore collaboration opportunities. I'm always excited to hear about new ideas and challenges.
+        Get in touch to discuss your project, ask questions, or explore collaboration opportunities. I&apos;m always excited to hear about new ideas and challenges.
         </p>
         <input
           type="text"
