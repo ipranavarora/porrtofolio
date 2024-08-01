@@ -29,21 +29,21 @@ const App: React.FC = () => {
                 output = "Email: example@email.com\nGitHub: github.com/yourusername";
                 break;
             case 'projects':
-                output = "1. Code Compiler\n2. Chess\n(Use 'projects 1' or 'projects 2' for details)";
+                output = "1. Y-social\n2. Melos Music\n(Use 'projects 1' or 'projects 2' for details)";
                 break;
             case 'projects 1':
-                output = `Name: Code Compiler
-Description: A code compiler supporting multiple languages.
-GitHub: https://github.com/Airbornharsh/code-compiler
-Website: https://code-compiler.harshkeshri.com
+                output = `Name: Y-social
+Description: A social media application.
+GitHub: https://github.com/ipranavarora/Y-social
+Website: https://y-social.onrender.com/
 Technologies: React, Vite, TypeScript, Tailwind CSS, Express, NodeJs`;
                 break;
             case 'projects 2':
-                output = `Name: Chess
-Description: Multiplayer chess game using links or codes.
-GitHub: https://github.com/Airbornharsh/chess
-Website: https://chess.harshkeshri.com
-Technologies: React, TypeScript, Tailwind CSS, Express, MongoDB, NodeJs, Firebase`;
+                output = `Name: Melos Music
+Description: Music App
+GitHub: https://github.com/ipranavarora/melos-music
+Website: https://github.com/ipranavarora/melos-music
+Technologies: React, JavaScript, Tailwind CSS, Express, MongoDB, NodeJs`;
                 break;
             case 'skills':
                 output = "Skills: React, Node.js, TypeScript, MongoDB, Express, and more.";
