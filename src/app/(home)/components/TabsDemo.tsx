@@ -7,55 +7,35 @@ import Link from "next/link";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "Y-Social",
+      value: "Y-Social",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Product Tab</p>
-          <ImageContainer src="/images/h.png" href=""/>
+          <p>Y-Social</p>
+          <ImageContainer src="/images/ys.png" href=""/>
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Melos Music Player",
+      value: "Melos Music Player",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Services tab</p>
-          <ImageContainer src="/images/h.png" href=""/>
+          <p>Melos Music Player</p>
+          <ImageContainer src="/images/mls.png" href=""/>
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Youtube Clone",
+      value: "Youtube Clone",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Playground tab</p>
-          <ImageContainer src="/images/h.png" href=""/>
+          <p>Youtube Clone</p>
+          <ImageContainer src="/images/yt.png" href=""/>
         </div>
       ),
-    },
-    {
-      title: "Content",
-      value: "content",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Content tab</p>
-          <ImageContainer src="/images/h.png" href=""/>
-        </div>
-      ),
-    },
-    {
-      title: "Random",
-      value: "random",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Random tab</p>
-          <ImageContainer src="/images/h.png" href=""/>
-        </div>
-      ),
-    },
+    }
   ];
 
   return (
