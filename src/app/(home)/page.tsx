@@ -8,7 +8,7 @@ export default function Home() {
     <div>    
       <SpotlightPreview />
       <TabsDemo />
-      <BackgroundBeamsDemo/>
+      <BackgroundBeamsDemo/>npm ru
     </div>
 
   );
